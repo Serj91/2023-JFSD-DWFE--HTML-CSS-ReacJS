@@ -1,0 +1,21 @@
+.products {
+    min-height: 60vh;
+    margin-left: 17%;
+    margin-top: 5%;
+    background: none;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+@media (max-width: 1081px) {
+    .products {
+        margin-top: 30%;
+    }
+   
+}
+@media (max-width: 376px) {
+    .products {
+        margin-top: 65%;
+    }
+   
+}

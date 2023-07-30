@@ -1,0 +1,32 @@
+.notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+  .notfound h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;  
+  }
+  
+  .notfound p {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .go-home {
+    background-color: #5892FF;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+    margin-top: 1rem;  
+  }
+  
+  .go-home:hover {
+    background-color: #3367B2;
+  }
